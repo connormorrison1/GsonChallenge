@@ -5,7 +5,7 @@ import java.io.*;
 import java.util.Scanner;
 
 public class Application {
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) throws Exception {
         Scanner jsonFileInput = new Scanner(new InputStreamReader(System.in));
         System.out.println("Please type the name of the first JSON file to compare:");
         String firstJSONFile = jsonFileInput.nextLine();

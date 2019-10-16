@@ -15,7 +15,7 @@ public class JSONData {
      * @param jsonFile2, second JSONFile to compare
      * @throws Exception
      */
-    public JSONData(JSONFile jsonFile1, JSONFile jsonFile2) throws Exception{
+    public JSONData(JSONFile jsonFile1, JSONFile jsonFile2) {
         this.jsonFile1 = jsonFile1;
         this.jsonFile2 = jsonFile2;
         this.getParsedJSON();
@@ -25,7 +25,7 @@ public class JSONData {
      * Parses the JSON from each file, and calls to get a comparison score of the two.
      * @throws Exception
      */
-    public void getParsedJSON() throws Exception{
+    public void getParsedJSON() {
         Gson gson = new Gson();
         //map the JSON documents into the StateBrews objects.
         StateBrewing firstJSON = gson.fromJson(this.jsonFile1.readFile(), StateBrewing.class);
