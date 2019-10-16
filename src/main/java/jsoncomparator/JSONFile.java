@@ -33,6 +33,7 @@ public class JSONFile {
             e.printStackTrace();
         }
         //fix naming conventions to allow for variables to be named properly in java.
-        return contentBuilder.toString().replace("-","_");
+        String jsonString = contentBuilder.toString().replace("-","_");
+        return jsonString.replace("_list","s");
     }
 }
