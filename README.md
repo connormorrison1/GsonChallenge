@@ -27,3 +27,5 @@ The breakdown of how I determined the score was like this:
 **Finally, return the score (up to 1.0).**
 
 If everything is equal, then the score will be equal to 1.0.
+
+**Here's a link to a video demonstrating my solution:** https://www.youtube.com/watch?v=e3Nkf_DyIxI
