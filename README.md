@@ -1,7 +1,4 @@
-# Quiq Programming Exercise
-
-Hey there! My name is **Connor Morrison** and here is my solution to the Quiq Programming Exercise. So as per assumptions, I assumed that the types of JSON files would only include information relevant to Breweries. I also assumed that the information given in the samples is the bulk of the attributes, so I strictly checked these for equality.
-# The Solution
+# Programming Exercise
 
 I utilized a third-party library that was suggested within the prompt, Gson. I had never used this library before, but its ability to translate a JSON string to its equivalent Java object seemed incredibly useful for comparison.
 
@@ -27,5 +24,3 @@ The breakdown of how I determined the score was like this:
 **Finally, return the score (up to 1.0).**
 
 If everything is equal, then the score will be equal to 1.0.
-
-**Here's a link to a video demonstrating my solution:** https://www.youtube.com/watch?v=e3Nkf_DyIxI
