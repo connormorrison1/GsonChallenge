@@ -16,7 +16,9 @@ The breakdown of how I determined the score was like this:
 - If the state birds don't match, then subtract 0.1 from the score.
 - If the states don't match, subtract 0.2 from the score.
 - If the state fishes don't match, subtract 0.1 from the score.
+
 **Next is breweries, which account for 0.6 of the total score**
+
 - If the same Breweries names are not found, subtract 1.0/(size of the list of Breweries).
 - If the food available doesn't match, subtract 1.0/(size of the list of Breweries).
 - If the location doesn't match, subtract (1.0/(size of the list of Breweries)) * equality score for location (maximum 1.0).
